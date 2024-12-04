@@ -32,7 +32,7 @@ export default defineConfig({
       vueTemplate: true,
     }),
     Components({
-      dts: 'src/components.d.ts',
+      dirs: ['src/core/components'],
     }),
     Vue({
       template: { transformAssetUrls },
@@ -41,7 +41,7 @@ export default defineConfig({
     Vuetify({
       autoImport: true,
       styles: {
-        configFile: 'src/styles/settings.scss',
+        configFile: 'src/core/styles/settings.scss',
       },
     }),
     Fonts({
