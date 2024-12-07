@@ -70,7 +70,7 @@ export default [
             pascalCase: false,
             snakeCase: false,
           },
-          ignore: [/\.vue$/],
+          ignore: [/\.vue$/, /^use[A-Z].*\.ts$/],
         },
       ],
 

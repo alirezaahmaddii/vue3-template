@@ -160,8 +160,8 @@
 
 <script setup lang="ts">
 const PascalCase = "test"
-const Pascal_Case1 = "test"
-const total:string = "re";
+const Pascal_Case1 = 'test'
+const total:string = 're';
 console.log(PascalCase);
 console.log(total, "total");
 console.log(Pascal_Case1);
