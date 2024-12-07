@@ -1,5 +1,15 @@
 import { createRouter, createWebHistory } from "vue-router/auto"
-import { routes } from "vue-router/auto-routes"
+
+const routes = [
+  {
+    path: "/",
+    name: "HomePage",
+    component: import("../pages/feature/index.vue"),
+    meta: {
+      title: "خانه",
+    },
+  },
+]
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),

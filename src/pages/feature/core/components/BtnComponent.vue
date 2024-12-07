@@ -2,6 +2,7 @@
   <v-btn>
     Btn Component
   </v-btn>
+  <HelloWorld />
 </template>
 
 
